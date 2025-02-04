@@ -25,8 +25,8 @@
                 <ul>
                     <li>2.1 <a href="#html_titulo">Títulos</a></li>
                     <li>2.2 <a href="#html_paragrafos_textos">Parágrafos e Texto</a></li>
-                    <li>2.3 <a href="#">Listas</a></li>
-                    <li>2.4 <a href="#">Links</a></li>
+                    <li>2.3 <a href="#html_listas">Listas</a></li>
+                    <li>2.4 <a href="#html_links">Links</a></li>
                 </ul>
             </li>
             
@@ -106,7 +106,7 @@
         </table>
 
         <ul>
-            <h3 id="html_paragrafos_textos"><li>2.1 Parágrafos e Texto</li></h3>
+            <h3 id="html_paragrafos_textos"><li>2.2 Parágrafos e Texto</li></h3>
             <small><a href="#inicio">(Voltar)</a></small>
         </ul>
 
@@ -126,6 +126,85 @@
                 </td>
             </tr>
         </table>
+
+        <ul>
+            <h3 id="html_listas"><li>2.3 Listas</li></h3>
+            <small><a href="#inicio">(Voltar)</a></small>
+        </ul>
+
+        <p>As lista podem ser de dois tipos: Não Ordenadas e Ordenadas.</p>
+
+        <blockquote>Não ordenado</blockquote>
+        <table border="2">
+            <tr>
+                <th>Codigo</th>
+                <th>Resultado</th>
+            </tr>
+            <tr>
+                <td style="text-align: left;">
+                    &lt;ul&gt;<br>
+                    &lt;li&gt;Item 1&lt;/li&gt;<br>
+                    &lt;li&gt;Item 2&lt;/li&gt;<br>
+                    &lt;li&gt;Item 3&lt;/li&gt;<br>
+                    &lt;ul&gt;
+                </td>
+                <td style="text-align: center;">
+                    <ul>
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+
+        <blockquote>Ordenado</blockquote>
+
+        <table border="2">
+            <tr>
+                <th>Codigo</th>
+                <th>Resultado</th>
+            </tr>
+            <tr>
+                <td style="text-align: left;">
+                    &lt;ol&gt;<br>
+                    &lt;li&gt;Item 1&lt;/li&gt;<br>
+                    &lt;li&gt;Item 2&lt;/li&gt;<br>
+                    &lt;li&gt;Item 3&lt;/li&gt;<br>
+                    &lt;ol&gt;
+                </td>
+                <td style="text-align: center;">
+                    <ol>
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                    </ol>
+                </td>
+            </tr>
+        </table>
+
+        <ul>
+            <h3 id="html_links"><li>2.4 Links</li></h3>
+            <small><a href="#inicio">(Voltar)</a></small>
+        </ul>
+
+        <p>Os links são definidos pela tag &lt;a&gt;.</p>
+
+        <table border="2">
+            <tr>
+                <th>Codigo</th>
+                <th>Resultado</th>
+            </tr>
+            <tr style="text-align: center;">
+                <td>
+                    &lt;a href="link"&gt;Texto&lt;a&gt;
+                </td>
+                <td>
+                    <a href="#html_links">Texto</a>
+                </td>
+            </tr>
+        </table>
+
     </section>
 </body>
 </html>
